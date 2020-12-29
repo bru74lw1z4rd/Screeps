@@ -10,3 +10,6 @@ Game.creeps['Upgrader1'].memory.role = 'upgrader';
 
 /* Activate safe mode */
 Game.spawns['Spawn1'].room.controller.activateSafeMode();
+
+/* Build Tower */
+Game.spawns['Spawn1'].room.createConstructionSite(x, y, STRUCTURE_TOWER);
