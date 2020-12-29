@@ -7,3 +7,6 @@ Game.spawns['Spawn1'].spawnCreep([WORK, CARRY, MOVE], 'Builder1', { memory: { ro
 /* Roles */
 Game.creeps['Harvester1'].memory.role = 'harvester';
 Game.creeps['Upgrader1'].memory.role = 'upgrader';
+
+/* Activate safe mode */
+Game.spawns['Spawn1'].room.controller.activateSafeMode();
